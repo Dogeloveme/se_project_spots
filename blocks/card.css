@@ -3,8 +3,21 @@
   width: 100%;
   object-fit: cover;
   display: block;
-  border-radius: 10px;
+  border-radius: 8px;
 }
+
+.card__title {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+}
+
 .card__content {
   display: flex;
   align-items: center;
@@ -20,8 +33,17 @@
   opacity: 40%;
 }
 
+.card__like-btn:hover {
+  opacity: 100%;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 627px) {
   .card__image {
     width: 288px;
+    height: 288px;
+  }
+  .card__title {
+    font-size: 16px;
   }
 }
