@@ -49,7 +49,11 @@
               />
               <div class="card__content">
                 <h2 class="card__title">Val Thorens</h2>
-                <button type="button" class="card__like-btn"></button>
+                <button
+                  type="button"
+                  class="card__like-btn"
+                  aria-label="Like Card"
+                ></button>
               </div>
             </li>
             <li class="card">
@@ -111,7 +115,9 @@
         </section>
       </main>
       <footer class="footer">
-        <p class="footer__copyright">2023 &copy; Spots</p>
+        <div class="page__section">
+          <p class="footer__copyright">2023 &copy; Spots</p>
+        </div>
       </footer>
       <div class="modal" id="edit-profile-modal">
         <div class="modal__container modal__dialog">
