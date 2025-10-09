@@ -97,6 +97,7 @@
   opacity: 0.4;
   max-width: 716px;
   width: 100%;
+  box-sizing: border-box;
 }
 
 .modal__input:hover {
