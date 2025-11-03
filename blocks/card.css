@@ -8,6 +8,12 @@
   object-fit: cover;
   display: block;
   border-radius: 8px;
+  transition: ease-in 0.3s;
+}
+.card__image:hover {
+  pointer-events: all;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
 }
 
 .card__title {
@@ -53,8 +59,9 @@
   height: 20px;
   border: none;
   background-color: transparent;
-  opacity: 40%;
+  opacity: 0.4;
   transition: all 0.5s ease;
+  background-repeat: no-repeat;
 }
 
 .card__like-btn:hover {
