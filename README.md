@@ -7,6 +7,7 @@ An image sharing social media site and application that allows users to edit the
 -HTML
 -CSS
 -Responsive design
+-JavaScript 
 
 ## Deployment
 
